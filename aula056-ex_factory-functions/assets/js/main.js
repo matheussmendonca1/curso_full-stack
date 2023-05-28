@@ -51,7 +51,7 @@ function criaCalculadora() {
                 if(el.classList.contains('btn-eq')) {
                     this.realizaConta();
                 }
-            }); // Faz com que o 'this' seja referente a calculadora e não ao document
+            }); // arrow function faz com que o 'this' seja referente a calculadora e não ao document
         },
 
         btnParaDisplay(valor) {
