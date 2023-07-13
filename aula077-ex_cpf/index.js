@@ -15,7 +15,6 @@ Se o número digito for maior que 9, consideramos 0.
 Se o número digito for maior que 9, consideramos 0.
 */
 
-
 function ValidaCPF(cpfEnviado) {
     Object.defineProperty(this, 'cpfLimpo', {
       enumerable: true,
@@ -57,7 +56,7 @@ function ValidaCPF(cpfEnviado) {
     return sequencia === this.cpfLimpo;
   };
   
-  const cpf = new ValidaCPF('161.542.866-60');
+  const cpf = new ValidaCPF('705.484.450-52');
   
   if(cpf.valida()) {
     console.log('Cpf válido');
