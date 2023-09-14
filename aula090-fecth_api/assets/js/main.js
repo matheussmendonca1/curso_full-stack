@@ -45,5 +45,3 @@ function carregaResultado(response) {
     resultado.innerHTML = response;
 }
 
-
-
