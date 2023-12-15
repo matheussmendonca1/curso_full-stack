@@ -14,7 +14,7 @@ app.post('/', (req, res) => {
     res.send('Recebi o formulário!');
 })
 
-app.get('/contato', (rreq, res) => {
+app.get('/contato', (req, res) => {
     res.send('Instagram: @_.omatheus._');
 });
 
